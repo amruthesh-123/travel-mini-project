@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+.travel-nav{
+    /* text-align: center; */
+    text-decoration: none;
+    /* background-color: rgb(15, 8, 8); */
+    color: rgb(248, 241, 241);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: fixed;
+    
+    
+    width: 100%;
+    
+}
+.travel-nav a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: rgb(247, 238, 238);
+}
+.travel-nav a:hover{
+    color: rgba(248, 248, 248, 0.6);
+}
+.travel-header{
+    padding: 80px;
+    height: 100vh;
+    background-image: url(mohamed-thasneem-AOFlegU1eTs-unsplash.jpg);
+
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items:start;
+
+}
+.travel i{
+    padding: 10px;
+}
+
+.serv-btn {
+    padding: 16px 25px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.serv-btn:hover{
+    background-color: rgba(241, 0, 141, 1);
+    color: white;
+}
+
+.location-form input{
+    padding: 20px 30px;
+    margin: -2px;
+}
+.location-form select {
+    padding: 20px 30px;
+    margin: -2px;
+}
+.location-form i{
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 7px;
+}
+
+.location-form button {
+    padding: 21px 30px;
+    margin: -4px;
+    background-color: rgba(241, 0, 141, 1);
+}
+
+.travel{
+    display: flex;
+    align-items: center;
+
+}
+.travel h1{
+    font-size: 80px;
+    color: white;
+    font-style: italic;
+}
+.travel p{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+    
+.service{
+    display: inline-block;
+}
+.drp-service{
+    display: none;
+    position: absolute;
+    background-color: rgba(252, 0, 147, 0.4);
+    top: 15px;
+    
+}
+.service:hover .drp-service{
+    display: block;
+}
+
+
+
+
+
+.properties{
+    color: rgb(167, 21, 21);
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+
+.properties h1{
+    padding: 20px 20px 0;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: rgb(88, 12, 231);
+    margin-top: 20px;
+}
+.properties-hr{
+    display: inline-block;
+    color: black;
+    width: 5%;
+    
+}
+.properties-flex {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+}
+
+.flex-item{
+    height: 350px;
+    width: 350px; 
+    background-repeat: no-repeat; 
+
+}
+
+.item-cnt{
+     padding-top: 100px;
+    color: #f1f3ee;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.cnt-icon{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item:hover .item-cnt{
+    display: block;
+}
+
+
+.img1{
+    background-image: url(947ac202e6c04f0baa696848ba98b86d.jpg);
+   
+}
+.img2{
+    background-image:url(pexels-oleksandr-p-3278215.jpg) ;
+   
+}
+
+.img3{
+    background-image: url(pexels-photo-2916820.jpeg);
+    
+}
+.img4{
+    background-image: url(pngtree-travel-around-the-world-background-image_2169513.jpg);
+    
+}
+
+.img5{
+    background-image: url(travel-ibk7fgrvtvhs7qzg.jpg);
+    
+}
+
+.img6{
+    background-image: url(Untitled.jpg);
+   
+}
+.work-head p{
+    margin: 15px 0;
+}
+
+.services-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.service-flex div {
+    /* margin-inline: 20px; */
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.Services-section{
+    background-color: #ee0a0a;
+    color: white;
+}
+.service-head h1{
+    padding: 20px 20px 0;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.service-head{
+    text-align: center;
+}
+hr{
+    display: inline-block;
+    color: rgb(12, 4, 4);
+    width: 5%;
+    margin-bottom: 40px; 
+    margin-top: 30px;
+}
+.service-flex i{
+    font-size: 30px;
+    border: 2px solid rgb(14, 5, 5);
+    padding: 30px;
+    border-radius: 10000px;
+    margin-bottom: 10px;
+    
+}
+.service-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+}
+.service-flex p{
+    margin: 20px 0;
+}
+
+.service-flex div:hover i{
+    color: red;
+    border-color: rgb(245, 0, 151);
+}
+
+
+/* do */
+
+
+
+.do-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.do-flex div {
+    /* margin-inline: 20px; */
+    width: 600px;
+    margin-bottom: 70px;
+}
+
+.do-section{
+    background-color: #ee0a0a;
+    color: white;
+}
+.do-head h1{
+    padding: 20px 20px 0;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.do-head{
+    text-align: center;
+}
+hr{
+    display: inline-block;
+    color: rgb(12, 4, 4);
+    width: 5%;
+    margin-bottom: 40px; 
+    margin-top: 30px;
+}
+.do-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+}
+.do-flex p{
+    margin: 20px 0;
+}
+
+
+
+/* about */
+
+.about-head h1{
+    padding: 20px 20px 0;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.about-head{
+    text-align: center;
+}
+.about-head p{
+    margin-bottom: 20px; 
+}
+.img{
+    height: 100vh;
+    background-image: url(photo-1611892440504-42a792e24d32.avif);
+    height: 980px;
+    width: 980px;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.room{
+    background-color: white;
+    /* padding: 10px; */
+    width: 400px;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+    
+}
+
+.room h2{
+padding: 20px;
+margin-bottom: 20px;
+}
+
+
+/* contact */
+
+
+.section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(71, 17, 172);
+    margin-bottom: 5px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.contact h1{
+    padding: 20px 20px ;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: white;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+    
+
+   
+}
+
+.ab input{
+   padding: 5px 60px;
+   border-radius: 20px;
+   border: 1px solid red;
+
+}
+
+.ab textarea{
+    padding: 5px 60px;
+    border-radius: 20px;
+    border: 1px solid red;
+    text-align: center;
+}
+.left-contact{
+    height: 450px;
+    width: 500px;
+    box-shadow: rgb(12, 4, 4);
+    background-image: url(pngtree-travel-around-the-world-background-image_2169513.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-head{
+    text-align: center;
+    height: 450px;
+    width:500px ;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    box-shadow: 0 10px 20px rgba(10, 9, 9, 0.5);
+}
+.contact p{
+    margin-bottom: 20px; 
+    color: white;
+}
+/* i{
+    position: absolute;
+    margin-right: 100px;
+    margin-top: 6px;
+    
+} */
+.ab i{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 6px;  
+    font-size: 15px;
+    
+    
+    
+}
+button{
+    padding: 5px;
+    margin-top: 2px;
+}
+
+
+/* review */
+
+.review{
+    margin-top: 50px;
+}
+
+.img-2{
+    height: 100vh;
+    background-image: url(Roguetrippers-Writing-A-Good-Travel-Review.webp);
+    height: 980px;
+    width: 980px;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guest{
+    background-color: white;
+    /* padding: 10px; */
+    width: 400px;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+    
+}
+
+.guest h2{
+padding: 20px;
+margin-bottom: 20px;
+}
+button{
+    color: rgb(238, 238, 241);
+    background-color: blue;
+}
+
+footer{
+    background-color: rgba(37, 28, 161, 1);
+    color: rgb(240, 230, 230);
+    padding: 10px;
+    text-align: center;
+}
